@@ -35,6 +35,7 @@ header,
 section,
 footer{
 	max-width: 1200px;
+	margin: 0 auto;
 }
 .container{
 	width: 80%;
@@ -72,6 +73,10 @@ footer{
 	box-sizing: border-box;
 	list-style: none;
 	padding: 14px 2.7211%;
+	border-radius: 10px;
+}
+.menu ul li:hover{
+	background-color: #76c38f;
 }
 .menu ul li a{
 	text-decoration: none;
