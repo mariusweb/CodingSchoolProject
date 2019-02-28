@@ -46,7 +46,7 @@ footer{
 	display: flex;
 	align-items: baseline;
 }
-.logo h1{
+.logo h2{
 	margin-bottom: 0;
 	font-size: 1.75rem;
 	line-height: 1;
