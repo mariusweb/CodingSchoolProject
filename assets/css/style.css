@@ -31,6 +31,9 @@ nav,
 section{
 	display: block;
 }
+.transparent{
+	background-color: rgba(0, 0, 0, 0.6);
+}
 header,
 section,
 footer{
@@ -38,10 +41,10 @@ footer{
 	margin: 0 auto;
 }
 .container{
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
-
 }
+/*Heder starts*/
 .header-container{
 	display: flex;
 	align-items: baseline;
@@ -72,7 +75,7 @@ footer{
 .menu ul li{
 	box-sizing: border-box;
 	list-style: none;
-	padding: 14px 2.7211%;
+	padding: 12px 2.7211%;
 	border-radius: 10px;
 }
 .menu ul li:hover{
@@ -83,4 +86,60 @@ footer{
 	color: #ffffff;
 	font-size: 0.8125rem;
 	line-height: 1.2;
+}
+/*Header ends*/
+/*Section starts*/
+.profile-container{
+	display: flex;
+	align-items: center;
+}
+.side{
+	background: rgba(0, 0, 0, 0);
+	border: none;
+	height: 28px;
+	width: 1.7708%;
+	outline: none;
+}
+.side img{
+	height: 28px;
+	width: 17px;
+}
+.button-left{
+	margin-right: 4.6875%;
+}
+.button-right{
+	margin-left: 4.6875%;
+}
+.profile{
+	width: 43.2292%;
+}
+.profile-name h1{
+	font-size: 2.875rem;
+	line-height: 1;
+	font-weight: normal;
+	color: #ffffff;
+}
+.profile-discription{
+	width: 77.1084%;
+}
+.profile-discription p{
+	font-size: 0.75rem;
+	line-height: 1.6;
+	color: #979797;
+}
+.read-more{
+	border-radius: 10px;
+	background-color: #76c38f;
+	border: none;
+	outline: none;
+}
+.read-more p{
+	font-size: 0.8125rem;
+	margin: 12px 16px;
+	color: #ffffff;
+}
+.profile-img img{
+	height: 385px;
+	border-radius: 50%;
+	width: 385px;
 }
