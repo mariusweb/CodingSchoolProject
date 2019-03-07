@@ -15,6 +15,10 @@ body{
 	margin: 0;
 	background-color: #660000;
 }
+.green-line{
+	height: 5px;
+	background-color: #76c38f;
+}
 h1,
 h2,
 h3,
@@ -24,12 +28,17 @@ h6,
 p,
 a{
 	font-family: 'Georgia', regular;
+	font-weight: normal;
 }
 footer,
 header,
 nav,
 section{
 	display: block;
+}
+.backgraund-img{
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .transparent{
 	background-color: rgba(0, 0, 0, 0.6);
@@ -53,7 +62,6 @@ footer{
 	margin-bottom: 0;
 	font-size: 1.75rem;
 	line-height: 1;
-	font-weight: normal;
 	color: #ffffff;
 }
 .logo a{
@@ -62,10 +70,10 @@ footer{
 .logo p{
 	margin-top: 0;
 	color: #979797;
-	font-size: /*0.6875rem*/ 0.75rem;
+	font-size: 0.75rem;
 }
 .menu{
-	width: /*76.5625%*/ 80%;
+	width: 80%;
 }
 .menu ul{
 	display: flex;
@@ -76,7 +84,7 @@ footer{
 	cursor: pointer;
 	box-sizing: border-box;
 	list-style: none;
-	padding: 12px 2.7211%;
+	padding: 12px /*2.7211%*/ 20px;
 	border-radius: 10px;
 }
 .menu ul li:hover{
@@ -88,6 +96,7 @@ footer{
 	color: #ffffff;
 	font-size: 0.8125rem;
 	line-height: 1.2;
+	white-space: nowrap;
 }
 /*Header ends*/
 /*Section1 starts*/
@@ -101,14 +110,13 @@ footer{
 .side{
 	background: rgba(0, 0, 0, 0);
 	border: none;
-	height: 28px;
 	width: 1.7708%;
 	outline: none;
 }
-.side img{
+.arrow{
+	font-size: 1.875rem;
 	cursor: pointer;
-	height: 28px;
-	width: 17px;
+	color: #76c38f;
 }
 .button-left{
 	margin-right: 4.6875%;
@@ -122,7 +130,6 @@ footer{
 .profile-name h1{
 	font-size: 2.875rem;
 	line-height: 1;
-	font-weight: normal;
 	color: #ffffff;
 }
 .profile-discription{
@@ -133,16 +140,17 @@ footer{
 	line-height: 1.6;
 	color: #979797;
 }
-.read-more{
+.read-more-button{
+	width: 34.9397%; 
 	cursor: pointer;
 	border-radius: 10px;
 	background-color: #76c38f;
-	border: none;
-	outline: none;
+	text-align: center;
+	padding: 12px 2.7211%;
 }
-.read-more p{
+.read-more-button a{
+	text-decoration: none;
 	font-size: 0.8125rem;
-	margin: 12px 16px;
 	color: #ffffff;
 }
 .profile-img{
@@ -158,14 +166,62 @@ footer{
 /*Section1 ends*/
 /*Section2 starts*/
 .section2{
-	padding: 60px 0 0;
+	margin: 60px 0 0;
 }
 .service{
-	border: box;
-	height: 307px;
 	width: 23.4375%;
 	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
-.service span{
+.service-width{
+	width: 73.3333%;
+	margin: 23px auto;
+}
+.icon-service{
 	color: #333333;
+	font-size: 7.5rem;
 }
+.service h3{
+	font-size: 2rem;
+	line-height: 1;
+	margin-top: 18px;
+}
+.service p{
+	font-size: 0.75rem;
+	line-height: 1.4;
+	font-weight: normal
+	color: #979797;
+	width: 75.5555%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.service:hover{
+	background-color: #76c38f;
+	color: #ffffff;
+}
+.service:hover .icon-service{
+	background-color: #76c38f;
+	color: #ffffff;
+}
+/*section2 ends*/
+/*section3 starts*/
+.latest-work-line{
+	background-color: #303030;
+	height: 3px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 63px;
+	margin-bottom: 52px;
+}
+.latest-work h4{
+	border-radius: 10px;
+	background-color: #303030;
+	color: #ffffff;
+	font-size: 2rem;
+	line-height: 1.2;
+	padding: 5px 14px;
+	}
