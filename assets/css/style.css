@@ -36,11 +36,16 @@ nav,
 section{
 	display: block;
 }
-.backgraund-img{
+.background-img{
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.transparent{
+.background-paintig{
+	width: 100%;
+	position: relative;
+	filter: grayscale(1);
+}
+.transparent, .image-description h5{
 	background-color: rgba(0, 0, 0, 0.6);
 }
 header,
@@ -57,6 +62,9 @@ footer{
 .header-container{
 	display: flex;
 	align-items: baseline;
+}
+.logo{
+	width: 20%;
 }
 .logo h2{
 	margin-bottom: 0;
@@ -166,7 +174,7 @@ footer{
 /*Section1 ends*/
 /*Section2 starts*/
 .section2{
-	margin: 60px 0 0;
+	margin: 60px auto 0;
 }
 .service{
 	width: 23.4375%;
@@ -225,3 +233,40 @@ footer{
 	line-height: 1.2;
 	padding: 5px 14px;
 	}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.image{
+	width: 30.2083%;
+	position: relative;
+	border: 5px solid #ffffff;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.image-grey{
+	width: 100%;
+	display: block;
+	filter: grayscale(1.0);
+}
+.image-description h5{ 
+	position: absolute;
+	font-size: 0.875rem;
+	line-height: 1.2;
+	color: #ffffff;
+	bottom: 0;
+	margin: 0 auto;
+	padding: 10px 24.1379%;
+	white-space: nowrap;
+}
+.image:hover{
+	border-color: #76c38f;
+}
+.image:hover .image-description{
+	display: none;
+}
+.image:hover .image-grey{
+	filter: grayscale(0);
+}
