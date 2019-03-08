@@ -39,11 +39,11 @@ section{
 .background-img{
 	max-width: 1200px;
 	margin: 0 auto;
+	background-image: url(../photos/mountain.jpg);
 }
 .background-paintig{
 	width: 100%;
-	position: relative;
-	filter: grayscale(1);
+	
 }
 .transparent, .image-description h5{
 	background-color: rgba(0, 0, 0, 0.6);
@@ -94,6 +94,8 @@ footer{
 	list-style: none;
 	padding: 12px /*2.7211%*/ 20px;
 	border-radius: 10px;
+	-webkit-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
 }
 .menu ul li:hover{
 	background-color: #76c38f;
@@ -182,6 +184,8 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	-webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
 }
 .service-width{
 	width: 73.3333%;
@@ -190,6 +194,7 @@ footer{
 .icon-service{
 	color: #333333;
 	font-size: 7.5rem;
+	border-radius: 50%;
 }
 .service h3{
 	font-size: 2rem;
@@ -237,7 +242,7 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 .image{
 	width: 30.2083%;
@@ -245,6 +250,8 @@ footer{
 	border: 5px solid #ffffff;
 	margin-bottom: 30px;
 	overflow: hidden;
+	-webkit-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
 }
 .image-grey{
 	width: 100%;
@@ -269,4 +276,21 @@ footer{
 }
 .image:hover .image-grey{
 	filter: grayscale(0);
+}
+/*section3 ends*/
+/*section4 starts*/
+.section4{
+	width: 100%;
+	background-color: #303030;
+}
+.footer-container{
+	display: flex;
+}
+.footer-container h6{
+	margin: 0 0;
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 15px; 
 }
