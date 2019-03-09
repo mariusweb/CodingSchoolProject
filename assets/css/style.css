@@ -30,6 +30,12 @@ a{
 	font-family: 'Georgia', regular;
 	font-weight: normal;
 }
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
 footer,
 header,
 nav,
@@ -72,9 +78,6 @@ footer{
 	line-height: 1;
 	color: #ffffff;
 }
-.logo a{
-	text-decoration: none;
-}
 .logo p{
 	margin-top: 0;
 	color: #979797;
@@ -91,8 +94,7 @@ footer{
 .menu ul li{
 	cursor: pointer;
 	box-sizing: border-box;
-	list-style: none;
-	padding: 12px /*2.7211%*/ 20px;
+	padding: 12px 20px;
 	border-radius: 10px;
 	-webkit-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
@@ -102,7 +104,6 @@ footer{
 }
 .menu ul li a{
 	padding: 12px 2.7211%;
-	text-decoration: none;
 	color: #ffffff;
 	font-size: 0.8125rem;
 	line-height: 1.2;
@@ -159,7 +160,6 @@ footer{
 	padding: 12px 2.7211%;
 }
 .read-more-button a{
-	text-decoration: none;
 	font-size: 0.8125rem;
 	color: #ffffff;
 }
@@ -179,6 +179,7 @@ footer{
 	margin: 60px auto 0;
 }
 .service{
+	cursor: pointer;
 	width: 23.4375%;
 	background-color: #ffffff;
 	margin-left: auto;
@@ -245,6 +246,7 @@ footer{
 	padding-bottom: 30px;
 }
 .image{
+	cursor: pointer;
 	width: 30.2083%;
 	position: relative;
 	border: 5px solid #ffffff;
@@ -285,6 +287,7 @@ footer{
 }
 .footer-container{
 	display: flex;
+	justify-content: space-between;
 }
 .footer-container h6{
 	margin: 0 0;
@@ -293,4 +296,54 @@ footer{
 	color: #ffffff;
 	padding-top: 40px;
 	padding-bottom: 15px; 
+}
+.flex-sections{
+	width: 23.4375%;
+}
+.post-title{
+	font-size: 0.8125rem;
+	line-height: 1.2;
+	font-weight: bolder;
+	color: #76c38f;
+}
+.post-autor, .post-date{
+	font-size: 0.625rem;
+	line-height: 1.2;
+}
+.post-autor{
+	color: #5a5959;
+}
+.admin-color a{
+	color: #76c38f;
+}
+.post-date{
+	color: #979797;
+}
+.post{
+	font-size: 0.8125rem;
+	line-height: 1.6;
+	color: #979797;
+}
+.read-more{
+	font-size: 0.8125rem;
+	line-height: 1.6;
+	color: #76c38f;
+}
+.quick-links nav ul{
+	padding-left: 0;
+	margin: 0 auto;
+}
+.quick-links nav ul li::before{
+	content: ">";
+	padding-right: 4px;
+	color: #979797;
+}
+.quick-links nav ul li{
+	border-bottom: 1px solid #404040;
+}
+.quick-links nav ul li a{
+	color: #76c38f;
+	font-size: 0.8125rem;
+	line-height: 2.65;
+	text-decoration: none;
 }
