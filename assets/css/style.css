@@ -347,3 +347,53 @@ footer{
 	line-height: 2.65;
 	text-decoration: none;
 }
+.tweets p{
+	font-size: 0.8125rem;
+	line-height: 1.6;
+	color: #979797;
+}
+.tweet-email a{
+	font-size: 0.8125rem;
+	line-height: 1.6;
+	color: #76c38f;
+}
+.contact-us input{
+	border-radius: 10px;
+	background-color: #222222;
+	border: none;
+	width: 100%;
+}
+.contact-us input[type="text"] {
+	font-family: 'Georgia', regular;
+	font-weight: normal;
+	font-size: 0.8125rem;
+	line-height: 1.2;
+	color: #989898;
+	padding: 12px 4.4444%;
+}
+.contact-us input[type="email"] {
+	font-family: 'Georgia', regular;
+	font-weight: normal;
+	font-size: 0.8125rem;
+	line-height: 1.2;
+	color: #989898;
+	padding: 12px 4.4444%;
+}
+.contact-us textarea{
+	border-radius: 10px;
+	background-color: #222222;
+	border: none;
+	width: 100%;
+	
+}
+.contact-us textarea::placeholder{
+	font-family: 'Georgia', regular;
+	font-weight: normal;
+	font-size: 0.8125rem;
+	line-height: 1.2;
+	color: #989898;
+	padding: 12px 4.4444%;
+}
+.contact-us input, textarea{
+	margin-bottom: 10px;
+}
