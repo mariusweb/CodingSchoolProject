@@ -18,9 +18,15 @@ for(let i = 0; i < burger.length; i++){
 		navigacija.classList.toggle("show");
 	});
 }
-let navbaratag = document.querySelectorAll(".nav-li");
-for(let n = 0; n < navbaratag.length; n++){
-	navbaratag[n].addEventListener("click", function(e){
+let navBaratag = document.querySelectorAll(".nav-li");
+for(let n = 0; n < navBaratag.length; n++){
+	navBaratag[n].addEventListener("click", function(e){
+		e.preventDefault();
+	});
+}
+let readMore = document.querySelectorAll(".read-more");
+for(let n = 0; n < readMore.length; n++){
+	readMore[n].addEventListener("click", function(e){
 		e.preventDefault();
 	});
 }
