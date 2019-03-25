@@ -30,6 +30,12 @@ for(let n = 0; n < readMore.length; n++){
 		e.preventDefault();
 	});
 }
+let admin = document.querySelectorAll(".admin-color");
+for(let n = 0; n < admin.length; n++){
+	admin[n].addEventListener("click", function(e){
+		e.preventDefault();
+	});
+}
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
   	loop:true,
